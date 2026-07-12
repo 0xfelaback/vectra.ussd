@@ -1,0 +1,1 @@
+public record CustomrQueryDto(int customerId, string BvnNumber, string FirstName, string LastName, bool IsUssdRegistered, string? ussdPin1Hash, string? ussdPin2Hash, bool IsPinSet, Customer.CustomerStatus Status, ICollection<ServiceAccount> ServiceAccounts);

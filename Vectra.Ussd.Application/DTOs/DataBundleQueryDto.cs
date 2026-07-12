@@ -1,0 +1,1 @@
+public record DataBundleQueryDto(int Id, string bundleName, decimal price, int validityDays);

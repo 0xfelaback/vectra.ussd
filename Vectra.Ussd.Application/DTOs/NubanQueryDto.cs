@@ -1,0 +1,1 @@
+public record NubanQueryDto(string AccountNumber, string AccountName, string BankCode, string BankName, bool IsActive);
